@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   const nama = "Rafael";
-  const umur = 17;
+  const umur = 18;
   const pendidikan = "SMK 1 BALIKPAPAN";
   const jurusan = "XII RPL";
   const angka1 = 12
@@ -29,13 +29,22 @@ function App() {
     return angka1 - angka2;
   };
 
-  const hasilkurang = kurang(angka1, angka2)
+  const hasilkurang = kurang(angka1, angka2);
+
+  let legal ="";
+    if ( umur >= 17)  {
+    legal = "Udah legal";
+  }
+  else {
+    legal = "belum legal";
+  }
   
 
   return (
     <>
       <h1>Belajar React with {nama}:D</h1>
       <br></br>
+      <p1> status : {legal} </p1>
       <p1>Angka 1 : {angka1} </p1>
       <p1>Angka 2 : {angka2} </p1>
       <p>Hasil kali = {hasilkali}</p>
