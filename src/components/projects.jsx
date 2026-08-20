@@ -9,14 +9,14 @@ function Projects() {
       title: "PLN Certificate Website",
       description: "Certificate management system.",
       image: plnImage, 
-      tech: ["Laravel", "MySQL", "Tailwind"],
+      tech: ["Laravel", "JavaScript", "MySQL", "Tailwind"],
     },
 
     {
       title: "Comtelindo provider Website",
       description: "Tracking and validation system.",
       image: comtImage,
-      tech: ["Laravel", "JavaScript", "MySQL"],
+      tech: ["Laravel", "JavaScript", "MySQL", "Tailwind"],
     },
 
     {
