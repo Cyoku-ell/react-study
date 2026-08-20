@@ -9,7 +9,7 @@ function About() {
         <h2 className="mt-3 text-4xl font-bold">A little bit about me.</h2>
 
         <p className="mx-auto mt-6 max-w leading-relaxed text-slate-400 justify-center">
-          I'm a vocational high school student who likes web development and
+          I'm a vocational high school student who likes <br></br> web development and
           building things with code.
         </p>
 
