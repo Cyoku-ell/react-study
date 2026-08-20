@@ -1,7 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
 import "./App.css";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
@@ -9,16 +5,15 @@ import About from "./components/about";
 import Projects from "./components/projects";
 
 function App() {
-  
   return (
-    <>
-     <div>
+    <div className="min-h-screen bg-slate-950 text-white">
       <Navbar />
-     <Hero    />
-     <About/>
-      <Projects />
-     </div>
-    </>
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+      </main>
+    </div>
   );
 }
 
