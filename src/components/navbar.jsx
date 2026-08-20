@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/60 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <h1 className="text-xl font-bold">
+        <h1 className="text-l font-bold">
           Portofl<span className="text-blue-500">.</span>
         </h1>
 

@@ -1,18 +1,29 @@
 import ProjectCard from "./projectcard";
+import plnImage from "../assets/logo-pln-removebg-preview.png";
+import comtImage from "../assets/comtelindo.png";
+import pitaImage from "../assets/pita.png";
 
 function Projects() {
   const projects = [
     {
       title: "PLN Certificate Website",
       description: "Certificate management system.",
+      image: plnImage, 
+      tech: ["Laravel", "MySQL", "Tailwind"],
     },
+
     {
-      title: "Tracking Website",
+      title: "Comtelindo provider Website",
       description: "Tracking and validation system.",
+      image: comtImage,
+      tech: ["Laravel", "JavaScript", "MySQL"],
     },
+
     {
-      title: "Portfolio",
+      title: "More >>",
       description: "My personal portfolio.",
+      image: pitaImage,
+      tech: ["React", "Tailwind"],
     },
   ];
 
@@ -33,6 +44,8 @@ function Projects() {
               key={project.title}
               title={project.title}
               description={project.description}
+              image={project.image}
+              tech={project.tech}
             />
           ))}
         </div>
